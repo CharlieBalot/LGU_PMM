@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<title>Malolos Public Market </title>
+	<!-- css files -->
+	<link rel="stylesheet" href="css/index.css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
+	
+	<!-- javascript files -->
+	<script type="text/javascript" src = "js/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src = "js/bootstrap.min.js"></script>
+	
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('#carousel-example-generic').carousel();
+	})
+	</script>
+</head>
+<body>
+	<div id='maincontainer'>		
+		<nav class="navbar navbar-default" role="navigation">
+		  <div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="#">Malolos Public Market</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">Market Map</a></li>
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Collection <b class="caret"></b></a>
+				  <ul class="dropdown-menu">
+					<li><a href="#">Pattern of Collection</a></li>					
+					<li class="divider"></li>
+					<li><a href="#">Reports of Collection</a></li>					
+				  </ul>
+				</li>
+			  </ul>			 
+			  <ul class="nav navbar-nav navbar-right">				
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" >Login<b class="caret"></b></a>
+				  <ul class="dropdown-menu">
+				  </ul>
+				</li>
+			  </ul>
+			</div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		
+		<div id="banner">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+							  <!-- Indicators -->
+							  <ol class="carousel-indicators">
+								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							  </ol>
+
+							  <!-- Wrapper for slides -->
+							  <div class="carousel-inner">
+								<div class="item active">
+								  <img src="images/DipologFishMarket.jpg" alt="">
+								</div>
+								<div class="item">
+								  <img src="images/DplgPublicMarket122905.jpg" alt="">
+								</div>
+								<div class="item">
+								  <img src="images/Fruits_in_Mercado.jpg" alt="">
+								</div>
+							  </div>
+
+							  <!-- Controls -->
+							  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							  </a>
+							  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							  </a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--End of banner-->
+		
+		<div id = "content" class="text-justify">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h3>Malolos History</h3>
+						<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMalolos, officially the City of Malolos (Filipino: Lungsod ng Malolos), is a first class urban component city in the Republic of the Philippines. Malolos is considered as the 115th city in the country. It is the capital city of the province of Bulacan as the seat of the provincial government.</p>
+						<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspThe city is 45 kilometres (28 mi) north of Manila, the capital city of the Philippines. It is one of the major suburbs conurbated to Metro Manila, situated in the southwestern part of Bulacan, in the Central Luzon Region (Region 3) in the island of Luzon and part of the Metro Luzon Urban Beltway Super Region. Bordering Malolos are the municipalities of Bulacan, Bulacan (the former capital of the province) to the southeast, Guiguinto to the east, Plaridel to the north, Calumpit to the northwest, and Paombong to the west. Malolos also lies on the north-eastern shore of Manila Bay.</p>
+						<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMalolos was the site of the constitutional convention of 1898, known as the Malolos Convention, that led to the establishment of the First Philippine Republic, at the sanctuary of the Barasoain Church. The convent of the Malolos Cathedral served as the presidential palace at that time. Malolos gave birth to the first constitutional republic in Asia.</p>
+						<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspIt is also one of the centers of education in Central Luzon region. It has several universities like the government-funded Bulacan State University, and privately owned Centro Escolar University at Malolos and the only Catholic University in Bulacan, University of Regina Carmeli, now known as "La Consolacion University-Philippines". Malolos also houses the most populous high school in Central Luzon, Marcelo H. del Pilar National High School, founded in 1905.</p>
+					</div>
+					
+					<div class="col-md-4">
+						<img src="images/mapuma.jpg" class="img-thumbnail" alt="Image">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<span>&copy; Copyrights All rights reserved 2014</span>
+					</div>
+					
+					<div class="col-xs-6" class = "text-center">
+						<ul id = "footernavigation">
+							<li><a href="#">About</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div><!--End of footer-->		
+	</div><!--End of maincontainer-->
+</body>
+
+</html>

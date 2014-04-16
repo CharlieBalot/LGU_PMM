@@ -1,0 +1,21 @@
+#tbTitle{
+	background-color:rgb(150,150,150);
+	color:white;
+	font-size:50;
+}
+#tbTotal{
+	background-color:rgb(100,100,100);
+	color:white;
+}
+#tbAveCollection{
+	background-color:rgb(100,100,100);
+	color:black;
+}
+#tbTotalCollection{
+	background-color:rgb(118,17,17);
+	color:white;
+	font-size:10;
+}
+@media all and (max-width:1200px){
+	#thumbnails img {margin: 20px 0px;}
+}
